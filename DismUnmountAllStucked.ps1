@@ -1,6 +1,6 @@
 <#
-This script dismount all mount point (mount path) that was created with DISM.exe tool
-Just check register key for available mount point's and dismount all with /Discard parameter
+This script dismount all mount point (mount path) that was mounted with DISM.exe tool (and maby stucked on unmount with error [0xc142011c] WIMGetMountedImageHandle)
+Check WIMMount registry key for available mount point's and dismount it all with /Discard parameter
 #>
 
 # Path to WIMMount registry key
